@@ -33,12 +33,12 @@ The get_frontend_code_context.ps1 script extracts the content of frontend code f
 
 # Features:
 
-Directories Processed: Reads files from components, contexts, services, and styles directories.
-File Inclusion: Specifically includes files like App.js, index.js, .env, and package.json.
-File Ignoring: Ignores files with extensions such as .json, .ps1, .sp, and .jpeg.
-Recursive Processing: Recursively processes all subdirectories and files within the specified directories.
-Output: Consolidates all file contents into frontend_code_context.txt with comments indicating file paths.
-Usage Instructions:
+1. Directories Processed: Reads files from components, contexts, services, and styles directories.
+2. File Inclusion: Specifically includes files like App.js, index.js, .env, and package.json.
+3. File Ignoring: Ignores files with extensions such as .json, .ps1, .sp, and .jpeg.
+4. Recursive Processing: Recursively processes all subdirectories and files within the specified directories.
+5. Output: Consolidates all file contents into frontend_code_context.txt with comments indicating file paths.
+6. Usage Instructions:
 
 Save the script as get_frontend_code_context.ps1 in the root directory of your frontend project.
 Open the terminal in VS Code.
@@ -47,8 +47,7 @@ Run the script using:
 powershell
 ## Copy code
     .\get_frontend_code_context.ps1
-Contributing
+## Contributing
 If you have any suggestions or improvements, feel free to submit a pull request or open an issue.
 
-# License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+
