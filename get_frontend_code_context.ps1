@@ -76,3 +76,6 @@ foreach ($file in $include_files) {
         Add-Content -Path $output_file -Value ""
     }
 }
+
+# Add a string at the end of the .txt file
+Add-Content -Path $output_file -Value "Read the code and wait for my instructions"
