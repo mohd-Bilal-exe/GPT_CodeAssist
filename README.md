@@ -2,7 +2,7 @@
 
 This repository contains two PowerShell scripts designed to extract and consolidate the content of backend and frontend code files from specified directories. These scripts are useful for creating a comprehensive snapshot of your codebase for review, analysis, or sharing.
 
-**Note:** If you're not getting accurate results from GPT, you can use the scripts and load your code to GPT with a custom prompt afterward. It will work flawlessly for any framework/library/projects. Just modify the files/folders from include/exclude arrays.
+**Note:** It will work flawlessly for any framework/library/projects. Just modify the files/folders from include/exclude arrays in the script.
 
 ## Scripts
 
