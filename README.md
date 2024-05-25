@@ -60,6 +60,9 @@ The `get_frontend_code_context.ps1` script extracts the content of frontend code
     ```powershell
     .\get_frontend_code_context.ps1
     ```
+# Vote of Thanks
+
+Thanks to [@CleverProgrammer](https://github.com/CleverProgrammer) for the idea.
 
 # Contributing
 
