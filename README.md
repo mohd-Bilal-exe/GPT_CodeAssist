@@ -1,6 +1,7 @@
 # Code Context Extractor Scripts
 
 This repository contains two PowerShell scripts designed to extract and consolidate the content of backend and frontend code files from specified directories. These scripts are useful for creating a comprehensive snapshot of your codebase for review, analysis, or sharing.
+Not getting accurate results from GPT just use the scripts and load your code to gpt with a custom prompt after
 Will work flawlessly for any framework/ Library/ Projectsl. Just modify the files/folders from include/exclude Arrays
 
 ## Scripts
