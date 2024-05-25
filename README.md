@@ -15,9 +15,11 @@ The `get_backend_code_context.ps1` script extracts the content of backend code f
 
 - **Directories Processed:** Reads files from controllers, models, routes, middleware, config, and utils directories.
 - **File Inclusion:** Includes `index.js` files found in the root directory and subdirectories.
-- **File Ignoring:** Ignores files with extensions such as `.env`, `.sh`, `.json`, and `.md`.
+- **File Ignoring:** Ignores files with extensions such as `.env`, `.sh`, `.json`, `.ps1` and `.md`.
 - **Recursive Processing:** Recursively processes all subdirectories and files within the specified directories.
 - **Output:** Consolidates all file contents into `backend_code_context.txt` with comments indicating file paths.
+
+ **Modifications** - You can add or remove files extensions or folders as per your needs
 
 #### Usage Instructions:
 
@@ -43,6 +45,8 @@ The `get_frontend_code_context.ps1` script extracts the content of frontend code
 - **File Ignoring:** Ignores files with extensions such as `.json`, `.ps1`, `.sp`, and `.jpeg`.
 - **Recursive Processing:** Recursively processes all subdirectories and files within the specified directories.
 - **Output:** Consolidates all file contents into `frontend_code_context.txt` with comments indicating file paths.
+
+ **Modifications** - You can add or remove files extensions or folders as per your needs
 
 #### Usage Instructions:
 
