@@ -70,3 +70,6 @@ if (Test-Path "$project_dir\index.js") {
     Get-Content -Path "$project_dir\index.js" | Add-Content -Path $output_file
     Add-Content -Path $output_file -Value ""
 }
+
+# Add a string at the end of the .txt file
+Add-Content -Path $output_file -Value "Read the code and wait for my instructions"
