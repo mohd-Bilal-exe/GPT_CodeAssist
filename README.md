@@ -24,8 +24,8 @@ Open the terminal in VS Code.
 Ensure you are in the root directory of your project.
 Run the script using:
 powershell
-Copy code
-.\get_backend_code_context.ps1
+## Copy code
+   ### .\get_backend_code_context.ps1
 Frontend Code Context Extractor
 Description:
 
