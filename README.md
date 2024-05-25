@@ -32,7 +32,7 @@ The `get_backend_code_context.ps1` script extracts the content of backend code f
     .\get_backend_code_context.ps1
     ```
 
-### Frontend Code Context Extractor [`get_frontend_code_context.ps1`] (https://github.com/bghub-c/GPT_CodeAssist/blob/main/get_frontend_code_context.ps1)
+### Frontend Code Context Extractor [`get_frontend_code_context.ps1`](https://github.com/bghub-c/GPT_CodeAssist/blob/main/get_frontend_code_context.ps1)
 
 #### Description:
 
